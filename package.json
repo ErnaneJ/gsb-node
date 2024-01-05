@@ -1,6 +1,6 @@
 {
   "name": "gsb-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A streamlined NodeJS wrapper for Google's Safe Browsing API v4, designed to efficiently determine the malicious nature of a given URL.",
   "main": "GSBNode.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+..."
+    "url": "git+https://github.com/ErnaneJ/gsb-node"
   },
   "keywords": [
     "gsb",

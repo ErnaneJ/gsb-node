@@ -3,7 +3,7 @@
 The Google Safe Browsing NodeJS Wrapper is a concise and efficient tool for interacting with Google's Safe Browsing API v4 using Node.js. This wrapper simplifies the process of checking whether a given URL is associated with malicious content.
 
 <p align="center">
-  <img src="./assets/google_safe_browsing_banner.png"/>
+  <img src="https://raw.githubusercontent.com/ErnaneJ/gsb-node/main/assets/google_safe_browsing_banner.png"/>
 </p>
 
 ## 🛠️ Usage
@@ -38,7 +38,7 @@ const maliciousURLs = await gsb.lookup(['https://example.com/malicious']);
 console.log('Malicious URLs:', maliciousURLs);
 ```
 
-_or check this testing example [here](./examples/example.js)._
+_or check this testing example [here](https://github.com/ErnaneJ/gsb-node/blob/main/examples/example.js)._
 
 ## 🔐 API Key Setup
 
@@ -53,7 +53,7 @@ For more details, refer to the [official guide](https://developers.google.com/sa
 
 ## 🫂 Contributing
 
-Feel free to contribute to this project by submitting issues or pull requests on the [GitHub repository](https://github.com/your-repo-link).
+Feel free to contribute to this project by submitting issues or pull requests on the [GitHub repository](https://github.com/ErnaneJ/gsb-node).
 
 This wrapper aims to provide a seamless integration with the Google Safe Browsing API v4, making it easier for Node.js developers to enhance the security of their applications.
 
