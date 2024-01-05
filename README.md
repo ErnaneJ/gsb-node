@@ -1,4 +1,62 @@
-# Google Safe Browsing - Wrapper for Node.js
+# 🌐 Google Safe Browsing NodeJS Wrapper
 
-A streamlined NodeJS wrapper for Google's Safe Browsing API v4, designed to efficiently determine the malicious nature of a given URL. Refer to the official documentation at [https://developers.google.com](https://developers.google.com/safe-browsing/v4/) for comprehensive information.
+The Google Safe Browsing NodeJS Wrapper is a concise and efficient tool for interacting with Google's Safe Browsing API v4 using Node.js. This wrapper simplifies the process of checking whether a given URL is associated with malicious content.
 
+<p align="center">
+  <img src="./assets/google_safe_browsing_banner.png"/>
+</p>
+
+## 🛠️ Usage
+
+### ⬇️ Installation
+
+Install the package via npm:
+
+```bash
+npm install gsb-node
+```
+
+### 📍 Initialization
+
+```javascript
+const GSBNode = require('google-safe-browsing-node');
+
+// Initialize with your Google Safe Browsing API key
+const gsb = new GSBNode({ apiKey: 'your-api-key' });
+```
+
+### 📃 API Documentation
+
+For comprehensive information on the Google Safe Browsing API v4, refer to the [official documentation](https://developers.google.com/safe-browsing/v4/).
+
+## ℹ️ Example
+
+```javascript
+const gsb = new GSBNode({ apiKey: 'your-api-key' });
+
+const maliciousURLs = await gsb.lookup(['https://example.com/malicious']);
+console.log('Malicious URLs:', maliciousURLs);
+```
+
+_or check this testing example [here](./examples/example.js)._
+
+## 🔐 API Key Setup
+
+To create a Google Safe Browsing API key, follow these steps:
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a new project or select an existing one.
+3. Enable the "Safe Browsing API" for your project.
+4. Create credentials and generate an API key.
+
+For more details, refer to the [official guide](https://developers.google.com/safe-browsing/v4/get-started).
+
+## 🫂 Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests on the [GitHub repository](https://github.com/your-repo-link).
+
+This wrapper aims to provide a seamless integration with the Google Safe Browsing API v4, making it easier for Node.js developers to enhance the security of their applications.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
