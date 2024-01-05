@@ -68,4 +68,4 @@ This wrapper aims to provide a seamless integration with the Google Safe Browsin
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ErnaneJ/gsb-node/blob/700be5f25afd922d1a35cb36f74ed916b75e2cf4/LICENSE) file for details.
