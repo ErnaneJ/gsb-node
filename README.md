@@ -28,7 +28,7 @@ npm install gsb-node
 ### 📍 Initialization
 
 ```javascript
-const GSBNode = require('google-safe-browsing-node');
+const GSBNode = require('gsb-node');
 
 // Initialize with your Google Safe Browsing API key
 const gsb = new GSBNode({ apiKey: 'your-api-key' });
